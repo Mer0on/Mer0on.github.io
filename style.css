@@ -1,0 +1,172 @@
+html
+{
+    scroll-behavior: smooth;
+    scroll-padding: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body
+{
+    overflow: auto;
+}
+
+.bgcontainer{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.profile-box
+{
+    background: rgba(234, 234, 234, 0.20);
+    backdrop-filter: blur(30px);
+    text-align: center;
+    padding: 20px 100px;
+    margin-top: 100%;
+    color: #000000;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile-box h2
+{
+    position: relative;
+    padding-left: 30%;
+    top: -150px;
+    text-align: center;
+    font-size: 30px;
+}
+.profile-box p
+{
+    position: relative;
+    left: 5em;
+    top: -150px;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.profile-box .profile-pic
+{
+    position: relative;
+    right: 35%;
+    width: 250px;
+    border-radius: 50%;
+    background: #fe5757;
+    padding: 4px;
+    margin-top: 30px;   
+}
+.NavButtons
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items:center;
+    padding: 0;
+    margin: 0;
+    gap: 500px;
+    z-index: 6;
+}
+
+.circle
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #fffF;
+    background: #ffadd6;
+    padding: 5px;
+}
+h3
+{
+    position: relative;
+    top: 40%;
+    left: 0;
+}
+
+.Description
+{
+    background: rgba(234, 234, 234, 0.80);
+    backdrop-filter: blur(30px);
+    text-align: center;
+    margin-top: 150px;
+    padding: 10px 100px;
+    color: #000000;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Section01, .Section02
+{
+    font-size: 30px;
+    position:relative;
+    text-align: left;
+    padding: 10vh;
+    z-index: 3;
+}
+
+.AchImg
+{
+    margin-top: 30%;
+    grid-area: myArea;
+    font-size: 60px;
+    text-align: left;
+    position: relative;
+}
+
+.Section02
+{
+    margin-top: 5%;
+     display: grid;
+     grid-template-areas: 'myArea myArea . . .';
+    z-index: 2;
+    grid-gap: 1%;
+    padding: 10px;
+}
+
+
+
+/*.AbtMeBtn 
+{
+    position: relative;
+    margin-right: 30%;
+}
+.Achievement
+{
+    position:relative;
+    margin-left: 10%;
+}
+
+.Description
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    align-items: center;
+    z-index: 0;
+
+    background: rgba(248, 248, 248, 0.7);
+    backdrop-filter: blur(30px);
+    text-align: center;
+    color: #000000;
+    position: flex;
+    margin-top: 10vh;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
